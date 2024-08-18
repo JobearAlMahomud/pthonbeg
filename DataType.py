@@ -20,3 +20,15 @@ print (float)
 
 print (type(float))
 
+# Complex Type data
+complex = 420j
+
+print(complex)
+print(type(complex))
+
+#strig type data
+MyName = "Jobear "
+YoureName = "James"
+
+print(MyName + YoureName)
+print(type(MyName + YoureName))
