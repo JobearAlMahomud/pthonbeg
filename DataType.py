@@ -1,3 +1,4 @@
+from operator import truediv
 
 #string
 var = 'I am writing python'
@@ -32,3 +33,13 @@ YoureName = "James"
 
 print(MyName + YoureName)
 print(type(MyName + YoureName))
+
+#Boolean data type
+Bool = True
+print(Bool)
+print(type(Bool))
+
+x = 10
+y = 10
+print(x>y)
+print(x==y)
