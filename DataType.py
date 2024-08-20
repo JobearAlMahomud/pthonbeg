@@ -43,3 +43,15 @@ x = 10
 y = 10
 print(x>y)
 print(x==y)
+
+
+#binary type data
+list = [1,2,3,4,5,6,7,8,10,255]
+b = bytes(list)
+print(type(b))
+
+#binaru type data byte array
+list1 = [1,2,3,4,5,6,7,8,10,255]
+b1 = bytearray(list1)
+print(type(b1))
+
