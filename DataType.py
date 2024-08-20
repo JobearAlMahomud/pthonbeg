@@ -45,7 +45,7 @@ print(x>y)
 print(x==y)
 
 
-#binary type data
+#binary type data byte
 list = [1,2,3,4,5,6,7,8,10,255]
 b = bytes(list)
 print(type(b))
