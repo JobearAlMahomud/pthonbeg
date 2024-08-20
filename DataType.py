@@ -59,3 +59,7 @@ print(b1[1])
 b1[1] = 100
 print(b1[1])
 
+#None type data
+x= None
+print(type(x))
+print(x)
