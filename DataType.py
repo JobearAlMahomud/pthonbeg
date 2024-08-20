@@ -54,4 +54,8 @@ print(type(b))
 list1 = [1,2,3,4,5,6,7,8,10,255]
 b1 = bytearray(list1)
 print(type(b1))
+print(b1[1])
+#changes on array
+b1[1] = 100
+print(b1[1])
 
