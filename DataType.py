@@ -1,3 +1,7 @@
+#Multiple line command starts
+'''
+'''
+#multiple Command ends
 from operator import truediv
 
 #string
@@ -63,3 +67,27 @@ print(b1[1])
 x= None
 print(type(x))
 print(x)
+
+
+
+#list type data
+li = ['Muhammad','Jobear', 'Al', 'Mahomud','James']
+li[0]= 'Ahmmed'
+print(li)
+print(type(li))
+
+
+
+#tuple type data
+
+tup = (5,10,15,20,25)
+print(tup)
+print(type(tup))
+
+
+
+#range type data
+
+ran = range(20)
+for i in ran:
+    print(i)
