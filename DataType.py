@@ -2,6 +2,7 @@
 '''
 '''
 #multiple Command ends
+
 from operator import truediv
 
 #string
@@ -91,3 +92,4 @@ print(type(tup))
 ran = range(20)
 for i in ran:
     print(i)
+
